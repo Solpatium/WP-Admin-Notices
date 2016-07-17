@@ -1,9 +1,7 @@
 # WP Admin Notices
-___
 A Wordpress developer's plugin that makes adding notices less painful. I felt a need for something like this while working on a project and decided to make one.
 
 ### Setup
-----
 Althought this code can be used as a plugin, I reccomend using it within your own plugin, just include `admin-notices.php` in your code - otherwise if user accidently turns off this plugin your code will produce errors.
 
 Using this code as a plugin is simple - just add folder to wp-content/plugins folder and turn it in the admin panel. For multisite turn this plugin network wide (if you want to have multisite funcionality of course).
